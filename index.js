@@ -1,10 +1,11 @@
-import runApp from "./src/index.js";
+import runApp from './src/index.js'
 
-console.log("Hello Hexlet");
+console.log('Hello Hexlet')
 
 const fn = (a, b) => {
-  const c = a + b;
-  return c;
-};
+  const c = a + b
+  return c
+}
 
-runApp();
+runApp()
+fn(3, 5)
